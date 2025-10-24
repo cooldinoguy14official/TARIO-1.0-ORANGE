@@ -1,1 +1,15 @@
 index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TARIO OS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="mascot">✨ TARIO Sparkle ✨</div>
+  <button onclick="triggerRipple()">Launch Ripple</button>
+  <audio id="tarioTheme" src="tario-theme.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
